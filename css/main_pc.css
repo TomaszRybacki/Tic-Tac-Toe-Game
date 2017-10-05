@@ -1,0 +1,142 @@
+/* Kolory */
+
+/*
+    biały:                 hsl(250, 2%, 90%);
+    czarny:                hsl(26, 8%, 16%);
+*/
+
+/* Czcionki */
+
+/*
+w3-large	Specifies a font size of 18 pixels
+w3-xlarge	Specifies a font size of 24 pixels
+w3-xxlarge	Specifies a font size of 32 pixels
+w3-xxxlarge	Specifies a font size of 48 pixels
+w3-jumbo	Specifies a font size of 64 pixels
+*/
+
+/* **** LAYOUT **** */
+
+#wrapper {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Kaushan Script', cursive;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #485563;
+    background: -webkit-linear-gradient(to top, #29323c, #485563);
+    background: linear-gradient(to top, #29323c, #485563);
+}
+
+p {
+    color: hsl(250, 2%, 90%);
+    font-size: 48px;
+    flex: 1 1 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+span {
+    color: hsl(250, 2%, 90%);
+    font-size: 48px;
+    margin: 0px 30px;
+    text-align: center;
+
+}
+
+#eks:hover {
+    border-bottom: solid 2px hsl(250, 2%, 90%);
+    cursor: pointer;
+}
+
+#ou:hover {
+    border-bottom: solid 2px hsl(250, 2%, 90%);
+    cursor: pointer;
+}
+
+#restart:hover {
+    border-bottom: solid 2px hsl(250, 2%, 90%);
+    cursor: pointer;
+}
+
+#section1 {
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start {
+    text-align: center;
+}
+
+#section2 {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: hsl(250, 2%, 90%) 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(250, 2%, 90%);
+    font-size: 60px;
+    cursor: pointer;
+}
+
+#box1 {
+    border-top: none;
+    border-left: none;
+}
+
+#box2 {
+    border-top: none;
+}
+
+#box3 {
+    border-top: none;
+    border-right: none;
+}
+
+#box4 {
+    border-left: none;
+}
+
+#box6 {
+    border-right: none;
+}
+
+#box7 {
+    border-left: none;
+    border-bottom: none;
+}
+
+#box8 {
+    border-bottom: none;
+}
+
+#box9 {
+    border-bottom: none;
+    border-right: none;
+}
+
+#section3 {
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#restart {
+    display: none;
+}
