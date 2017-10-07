@@ -135,16 +135,8 @@ function checkWinner() {
     "use strict";
     let i;
     let drawArray = [];
-    theEnd(1, 2, 3);
-    theEnd(4, 5, 6);
-    theEnd(7, 8, 9);
-    theEnd(1, 4, 7);
-    theEnd(2, 5, 8);
-    theEnd(3, 6, 9);
-    theEnd(1, 5, 9);
-    theEnd(3, 5, 7);
 
-    for (i = 0; i < boxArray.length; i += 1) {
+     for (i = 0; i < boxArray.length; i += 1) {
         if (boxArray[i].classList.contains("flag")) {
             drawArray[i] = 1;
         }
@@ -160,6 +152,14 @@ function checkWinner() {
         startElem.innerHTML = "<p>Remis !</p>";
         restartElem.style.display = "block";
     }
+    theEnd(1, 2, 3);
+    theEnd(4, 5, 6);
+    theEnd(7, 8, 9);
+    theEnd(1, 4, 7);
+    theEnd(2, 5, 8);
+    theEnd(3, 6, 9);
+    theEnd(1, 5, 9);
+    theEnd(3, 5, 7);
 }
 
 // restart the game
